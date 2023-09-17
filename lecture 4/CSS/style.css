@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    align-items:normal; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+   }
+   
+   img {
+     max-width: 500px;
+     max-height:600px;
+     width: 100%;
+   }
+   
+   .text {
+   
+     width: 100%;
+     font-family: cursive;
+   }
+   .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .table,tr,td{
+    border: solid 1px;
+    font-size: 18px;
+   }
+   .btn{
+    text-decoration: none;
+    background: rgba(210, 85, 175, 0.868);
+    color: rgb(249, 249, 249);
+    padding: 20px,20px;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px rgb(65, 64, 65);
+}
+.btn:hover{
+    background-color: rgb(162, 32, 218);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    letter-spacing: 2px;
+}
