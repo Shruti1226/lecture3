@@ -1,0 +1,52 @@
+body{
+    font-family: 'Popins';
+}
+header{
+    height: 75vh;
+   /* background-image: url('https://www.freepik.com/free-photo/young-asian-student-university-campus-with-laptop_8907745.htm#query=students&position=42&from_view=search&track=sph');   */
+   background-image:url(images/young-asian-student-university-campus-with-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center center;
+    color: white;
+}
+.header-section{
+    height: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.cards-section{
+    padding: 5%;
+    border: 1px solid blue;
+}
+.card{
+    margin: 10%;
+    padding: 10%;
+    border: 1px solid green;
+    background-color: yellow;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.header-quote{
+   background-color: orange;
+   padding: 5px;
+   font-weight: bold;
+   width: fit-content;
+   font-size: 25px;
+}
+.header-title{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 30px;
+}
+.orange-section h3{
+ font-weight: 700;
+ font-size: 20px;
+ text-transform: uppercase;
+}
